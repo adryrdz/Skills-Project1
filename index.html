@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Halifax Canoe and Kayak</title>
+</head>
+<body>
+    <div>
+    <header>
+        <div id="mySidenav" class="sidenav">
+            <a href=""class="closebtn" onclick="closeNav()"></a>
+            <a href="#">Home</a>
+            <a href="#">Book Trip</a>
+            <a href="#">Admin Login</a>
+        </div>
+        <div>
+            <img class="hamIcon" onclick="openNav()"src="https://raw.githubusercontent.com/Zulinov/skillsProjects/main/hamburger.png" alt="icon">
+            <h1 class="headtitle"> Halifax Canoe and Kayak </h1>
+            <img class="nsIcon" alt="NovaScotia" src="https://raw.githubusercontent.com/Zulinov/skillsProjects/main/paddle-white.png">
+         </div>
+    </header>
+    </div>
+
+    <div class="PageContainer">
+
+    <section class="canoe">
+        <div class="container flex flex-column align-center center">
+            <h1>Come experience Canada</h1>
+        </div>
+    </section>
+
+<div class="container2">
+    <h2 class="title">Upcoming Adventures</h2>
+    <hr>
+    <h3 class="locations">Halifax</h3>
+    <p>
+        <ul class="dates">
+            <li>Date: 2022.08.31</li>
+            <li>Duration: 4 days</li>
+        </ul>
+    </p>
+
+    <h4 class="container">Summary</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Pariatur voluptatem, praesentium minima adipisci odio dolor 
+        eum ab iusto cumque rerum, incidunt voluptate quasi natus distinctio 
+        voluptatum doloribus odit? Eaque, est?</p>
+    
+    <h3 class="container locations">Sydney</h3>
+    <p>
+        <ul class="dates">
+            <li>Date: 2022.08.31</li>
+            <li>Duration: 2 days</li>
+        </ul>
+    </p>
+
+    <h4 class="container">Summary</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Pariatur voluptatem, praesentium minima adipisci odio dolor 
+        eum ab iusto cumque rerum, incidunt voluptate quasi natus distinctio 
+        voluptatum doloribus odit? Eaque, est?</p>
+
+</div>
+
+</div>
+<script>
+$(document).ready(function(){
+            $('.hamIcon').click(function() {
+                $('#mysidenav').toggle();
+            });
+            });
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
+$( ".hamIcon" ).click(function() {
+  $( "#mySidenav" ).toggle( "slow" );
+});
+</script>
+</body>
+</html>

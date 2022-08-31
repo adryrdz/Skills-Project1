@@ -1,0 +1,167 @@
+.PageContainer {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+body {
+  margin: 0;
+}
+
+header {
+    max-width: 100%;
+    background-color: #2A5196;
+    box-shadow: 10px 10px 8px 8px #888888;
+    display: inline-flex auto;
+
+}
+
+.hamIcon {
+    width: 30px;
+    cursor: pointer;
+    padding: 10px 10px;
+    display: inline-block;
+
+}
+
+.headtitle {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    display: inline-flex;
+    margin: 5px auto 5px auto;
+    padding: 10px 20% 10px 20%;
+    text-align: center;
+
+
+
+}
+
+.nsIcon {
+  width: 50px;
+  display: inline-block;
+  margin: 5px auto 5px auto;
+  padding: 10px auto 10px auto;
+  position: absolute;
+  right: 0px;
+
+
+
+}
+
+
+  /** SIDE NAVIGATION **/
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 60px;
+    left: 0;
+    background-color: #2A5196;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #DFF6FF;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+
+    /** SIDE NAVIGATION ENDS**/
+
+  /** MAIN IMAGE **/
+.canoe { 
+    background-image: url('https://raw.githubusercontent.com/Zulinov/skillsProjects/main/canoe.jpg'); 
+    height: 400px;
+    background-size: 1000px;
+    background-position: center;
+    padding-top: 0;
+    float:center;
+}
+@media screen and (max-widht:600px) {
+  .canoe {max-width: 100%;}  
+}
+
+
+
+.canoe h1 {
+    position: center;
+}
+
+
+
+.canoe h1 {
+    font-size: 63px;
+    font-weight: 700;
+    line-height: 0.9;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 20%;
+    font-family: helvetica, sans-serif;
+    font-weight: lighter;
+
+
+}
+  /** MAIN IMAGE ENDS **/
+
+
+  /** CONTENT **/
+
+.container2 {
+  margin: 20px 20px;
+}
+h2 {
+  color: #888888;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h3 {
+  text-decoration: underline;
+  color: darkgreen;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+h4 {
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+}
+p {
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+ul {
+  color: #888888;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+  margin-left: 0%;
+}
+
+  /** CONTENT ENDS**/
